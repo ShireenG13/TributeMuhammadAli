@@ -1,27 +1,30 @@
 
-*{
-  
+html{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
 }
 
 body{
   background-color: white;
-  padding-top: 0px;
+  padding: 0px;
   border-radius: 15px;
-  margin-top:0px;
+  margin:0px auto;
 }
 
 main{
   background-color: #EEEEEE;
   border-radius: 15px;
-  margin:0;  
+  margin:0 10px;  
+  
 }
 
 h1{ 
   width: 100%;
   background-color: #EEEEEE;
-  margin: 30px auto 10px;
-  padding-top:60px;
-  padding-bottom: 10px;
+  margin: 30px auto 7px;
+  padding-top:50px;
+  padding-bottom: 7px;
   text-align: center;
   font-family: Roboto, sans-serif;
   font-size: 40px;
@@ -29,21 +32,18 @@ h1{
 
 }
 h4{
-  width: 100%;
+  
   background-color: #EEEEEE;
   font-family: Roboto, sans-serif;
   font-weight: lighter;
   text-align: center;
+  
 
 }
 
 #img-div{
-  width:80%;
-  height:auto;
-  margin: auto;
-  text-align: center;
-  
-
+  width:100%;
+  margin: auto 0px;  
 }
 /*img{
   width: 800px;
@@ -58,26 +58,25 @@ h4{
 }*/
 
 #image {
-width: 100%; 
-height: auto;
-max-width: 100%;
+width: 83%; 
+
+max-width: 83%;
 background-color: white;
 display: flex;
 justify-items: center;
 
 margin: 0 auto;
-padding: 50px 50px;
+padding: 92px 92px 2px 92px;
 }
 
 #img-caption{
-  width: 100%;
+  width: 83%;
   font-family: Roboto, sans-serif;
   font-weight:2;
   text-align: center;
-  font-weight: 10;
-  margin: 0 auto;
-  padding: 20px 2px;
-  background-color: #EEEEEE;
+  margin: auto;
+  padding: 20px 92px 20px 92px;
+  background-color: white;
 
 }
 
@@ -98,6 +97,7 @@ p{
   font-family: Roboto, sans-serif;
   font-size: 17px;
   font-weight: 600; 
+  padding-bottom: 20px;
 }
 
 p a {
@@ -122,4 +122,25 @@ ul{
   font-family: Roboto, sans-serif;
   text-align: left;
 
+}
+
+@media (max-width: 720px){
+  #image {
+  
+    width:85%;
+    background-color: white;    
+    margin: auto;
+    padding: 30px 30px 2px 30px;
+    }
+    #img-caption{
+      width: 85%;
+      font-family: Roboto, sans-serif;
+      font-weight:2;
+      text-align: center;
+      margin: auto;
+      padding: 20px 26px 20px 26px;
+      background-color: white;
+    
+    }
+    
 }
